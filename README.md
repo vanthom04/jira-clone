@@ -13,7 +13,7 @@ A simple Jira-like project management tool built with Next.js.
 
 1. **Clone the repository:**
   ```bash
-  git clone https://github.com/your-username/jira-clone.git
+  git clone https://github.com/vanthom04/jira-clone.git
   cd jira-clone
   ```
 
