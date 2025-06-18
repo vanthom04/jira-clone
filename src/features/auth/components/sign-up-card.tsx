@@ -130,7 +130,7 @@ export const SignUpCard = () => {
           className="w-full"
           variant="secondary"
           disabled={isPending}
-          onClick={signUpWithGoogle}
+          onClick={() => signUpWithGoogle()}
         >
           <FcGoogle className="size-5" />
           Login with Google
@@ -140,7 +140,7 @@ export const SignUpCard = () => {
           className="w-full"
           variant="secondary"
           disabled={isPending}
-          onClick={signUpWithGithub}
+          onClick={() => signUpWithGithub()}
         >
           <FaGithub className="size-5" />
           Login with Github
